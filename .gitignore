@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+data/
+*/cache/
+*/out/*
+!task1_feature_engineering/out/*.json
+*/logs/
+catboost_info/
+*.pt
+*.cbm
+.DS_Store

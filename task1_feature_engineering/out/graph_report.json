@@ -1,0 +1,142 @@
+{
+ "relation_weights": {
+  "graph_typed_temporal": {
+   "pos": 1.1491618156433105,
+   "skip": 1.13070547580719,
+   "org": 0.7618976831436157,
+   "art": 1.7734218835830688
+  },
+  "graph_plain": {
+   "pos": 1.5911991596221924,
+   "art": 1.621791124343872
+  },
+  "graph_typed_multihash": {
+   "pos": 1.2267364263534546,
+   "skip": 1.2323570251464844,
+   "org": 0.857933521270752,
+   "art": 1.5889079570770264
+  }
+ },
+ "params": {
+  "graph_typed_temporal": 10587716,
+  "graph_plain": 10587714,
+  "graph_typed_multihash": 5865092
+ },
+ "probe_r2": {
+  "ua_cnt": 0.2705510679469568,
+  "item_cnt": 0.7977939036719006,
+  "artist_pop": 0.5434605417973486,
+  "u_events": 0.024853390644406836,
+  "u_skip": 0.07395678681283158,
+  "item_skip": 0.43568023082275165,
+  "u_org": -0.026119284337925652,
+  "item_org": 0.7373597427422383
+ },
+ "test": {
+  "new@10": {
+   "users": 361,
+   "als_only": 0.05253240898902513,
+   "graph_typed_temporal": 0.06586245385178771,
+   "graph_plain": 0.06750546337851344,
+   "graph_typed_multihash": 0.06336587802195294,
+   "catboost_base": 0.07552629452363857,
+   "catboost_base+graph": 0.08475823428217727,
+   "catboost_base+openfe": 0.07995189609290923,
+   "catboost_base+openfe+graph": 0.08731846879027894,
+   "delta catboost_base+graph vs catboost_base": [
+    0.009231939758538704,
+    0.00045981007874050284,
+    0.01745573152751734
+   ],
+   "delta catboost_base+openfe+graph vs catboost_base+openfe": [
+    0.007366572697369718,
+    -0.00034430603323836335,
+    0.01586048159972863
+   ],
+   "delta graph_typed_temporal vs graph_plain": [
+    -0.0016430095267257407,
+    -0.010735125038683528,
+    0.007215964588715315
+   ]
+  },
+  "new@50": {
+   "users": 361,
+   "als_only": 0.05695288529700771,
+   "graph_typed_temporal": 0.06661482277116605,
+   "graph_plain": 0.066721484836535,
+   "graph_typed_multihash": 0.06374737359471645,
+   "catboost_base": 0.07034603533476716,
+   "catboost_base+graph": 0.0754501200241999,
+   "catboost_base+openfe": 0.07214333080029,
+   "catboost_base+openfe+graph": 0.0764624123004363,
+   "delta catboost_base+graph vs catboost_base": [
+    0.005104084689432733,
+    -0.0009132704776330385,
+    0.010365751276429714
+   ],
+   "delta catboost_base+openfe+graph vs catboost_base+openfe": [
+    0.004319081500146298,
+    -0.0004097644967711129,
+    0.009989733719802912
+   ],
+   "delta graph_typed_temporal vs graph_plain": [
+    -0.00010666206536895884,
+    -0.004306398542372897,
+    0.003983472715253484
+   ]
+  },
+  "org_new@10": {
+   "users": 266,
+   "als_only": 0.02489644076957858,
+   "graph_typed_temporal": 0.03573171632664599,
+   "graph_plain": 0.03840137973856564,
+   "graph_typed_multihash": 0.03187829158947859,
+   "catboost_base": 0.03764428859427479,
+   "catboost_base+graph": 0.04130080367304869,
+   "catboost_base+openfe": 0.03447163281707865,
+   "catboost_base+openfe+graph": 0.043983692645195666,
+   "delta catboost_base+graph vs catboost_base": [
+    0.003656515078773905,
+    -0.006788746581378388,
+    0.01159617726234333
+   ],
+   "delta catboost_base+openfe+graph vs catboost_base+openfe": [
+    0.009512059828117012,
+    0.001813276578652417,
+    0.019631223204617323
+   ],
+   "delta graph_typed_temporal vs graph_plain": [
+    -0.002669663411919645,
+    -0.011391649279039767,
+    0.004635954629180148
+   ]
+  },
+  "org_new@50": {
+   "users": 266,
+   "als_only": 0.028598072832083623,
+   "graph_typed_temporal": 0.040407596443948514,
+   "graph_plain": 0.03963974190768425,
+   "graph_typed_multihash": 0.03852630360627017,
+   "catboost_base": 0.040358624493188465,
+   "catboost_base+graph": 0.04320991801771564,
+   "catboost_base+openfe": 0.03827618464054642,
+   "catboost_base+openfe+graph": 0.04533221669266951,
+   "delta catboost_base+graph vs catboost_base": [
+    0.002851293524527179,
+    -0.0054456454218152735,
+    0.009104581749363936
+   ],
+   "delta catboost_base+openfe+graph vs catboost_base+openfe": [
+    0.007056032052123095,
+    0.0018405535820324298,
+    0.014882262616346897
+   ],
+   "delta graph_typed_temporal vs graph_plain": [
+    0.0007678545362642612,
+    -0.002944917213949316,
+    0.004290543077170993
+   ]
+  }
+ },
+ "sec": 331
+}
